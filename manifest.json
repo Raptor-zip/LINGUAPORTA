@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "リンガポルタ自動化",
+  "version": "1.0.0",
+  "description": "リンガポルタのCOCET2600の「空所補充」と「単語の意味」を自動で解きます。",
+  "content_scripts": [
+    {
+      "matches": ["https://w5.linguaporta.jp/user/seibido/"],
+      "js": ["LINGUAPORTA.js"],
+
+      "all_frames": true
+    }
+  ],
+  "permissions": ["storage"],
+  "host_permissions": [
+    "*://w5.linguaporta.jp/user/*",
+    "https://script.google.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon/16.png",
+    "48": "icon/48.png",
+    "128": "icon/128.png"
+  },
+  "author": "Raptor"
+}
