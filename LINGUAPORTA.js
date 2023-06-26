@@ -215,7 +215,6 @@ if (question_type == "空所補充" && document.querySelector("#false_msg") == n
         }, data.late);
     });
 } else if (question_type == "空所補充" && document.querySelector("#question_area") != null && document.querySelector("#ans_submit") != null) {
-    なら
     console.log("location:空所補充,status:不正解画面");
     document.querySelector("#under_area > form:nth-child(2)").submit();
 } else if (question_type == "空所補充" && document.querySelector("#question_area > div.qu03 > input[type=text]") != null) {
