@@ -4,7 +4,7 @@ COCET 2600(理工系学生のための必須英単語 2600)のLINGUAPORTA(リン
 Google Chromeの拡張機能を使用しているので、新しくソフトをインストールするは必要ありません。
 # 必須環境
 Windows or Mac or Linux  
-Google Chrome(以下Chrome)
+Google Chrome(以下Chrome) or Microsoft Edge(以下Edge)
 # 初期設定
 #### 上のファイルをダウンロードする
 右上の「Code」をクリックする
