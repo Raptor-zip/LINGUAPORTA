@@ -5,7 +5,7 @@
   "description": "リンガポルタのCOCET2600の「空所補充」と「単語の意味」を自動で解きます。",
   "content_scripts": [
     {
-      "matches": ["https://w5.linguaporta.jp/user/seibido/"],
+      "matches": ["https://w5.linguaporta.jp/user/seibido/*"],
       "js": ["LINGUAPORTA.js"],
 
       "all_frames": true
