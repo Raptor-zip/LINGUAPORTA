@@ -3,9 +3,21 @@ COCET 2600(理工系学生のための必須英単語 2600)のLINGUAPORTA(リン
 「単語の意味」と「空所補充」に対応しています。
 Google Chromeの拡張機能を使用しているので、新しくソフトをインストールするは必要ありません。
 # 必須環境
+## スマホの場合
+android
+Kiwi Browser
+## PCの場合
 Windows or Mac or Linux  
 Google Chrome(以下Chrome) or Microsoft Edge(以下Edge)
 # 初期設定
+## Androidの場合
+Kiwi Browserを開く
+右上の・・・をタップする
+「拡張機能」をタップする
+右上の「デベロッパー モード」をオンにする
+「+ (from .zip/.crx/.user.js)」をタップする
+ダウンロードした「LINGUAPORTA.crx」を選択する
+## PCの場合
 #### 上のファイルをダウンロードする
 右上の「Code」をクリックする
 「Download ZIP」をクリックする
