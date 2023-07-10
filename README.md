@@ -9,19 +9,16 @@ android
 Google Chrome または Edge
 # 導入方法
 ## Androidの場合
-右上の「Code」をクリックする  
-「Download ZIP」をクリックする  
-Files by Google を開く  
-ダウンロードしたファイルが格納されているフォルダに移動する  
-LINGUAPORTA.zip ファイルを選択する  
-「解凍」をタップする  
-「完了」をタップする
+右上の「Go to file」をタップする  
+「LINGUAPORTA.crx」をタップする  
+右上の「・・・」をタップする
+「Download」をタップする  
 Kiwi Browserを開く  
 右上の・・・をタップする  
 「拡張機能」をタップする  
 右上の「デベロッパー モード」をオンにする  
 「+ (from .zip/.crx/.user.js)」をタップする  
-解凍した「LINGUAPORTA.crx」を選択する  
+ダウンロードした「LINGUAPORTA.crx」を選択する  
 ## PCの場合
 右上の「Code」をクリックする
 「Download ZIP」をクリックする
