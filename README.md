@@ -5,7 +5,7 @@ COCET 2600(理工系学生のための必須英単語 2600)のLINGUAPORTA(リン
 ## スマホの場合
 android  
 [Kiwi Browser](https://play.google.com/store/apps/details?id=com.kiwibrowser.browser)
-※Google ChromeやSafariだと拡張機能を実行できないので、必ずKiwi Brouwerなどの拡張機能が実行できるアプリが必須
+※Google ChromeやSafariだと拡張機能を実行できないので、必ずKiwi Browserなどの拡張機能が実行できるアプリが必須
 ## PCの場合  
 Google Chrome または Edge
 # 導入方法
