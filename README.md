@@ -3,10 +3,10 @@ COCET 2600(理工系学生のための必須英単語 2600)のLINGUAPORTA(リン
 「単語の意味」と「空所補充」に対応しています。Webブラウザの拡張機能を使用しています。
 # 必須環境
 ## スマホの場合
-android  
+android(動作確認済み)  
 [Kiwi Browser](https://play.google.com/store/apps/details?id=com.kiwibrowser.browser)
 ※Google ChromeやSafariだと拡張機能を実行できないので、Kiwi Browserなどの拡張機能が実行できるアプリが必要
-## PCの場合  
+## PCの場合(Windows,Macで動作確認済み)  
 Google Chrome または Edge
 # 導入方法
 ## Androidの場合
@@ -20,6 +20,7 @@ Kiwi Browserを開く
 右上の「デベロッパー モード」をオンにする  
 「+ (from .zip/.crx/.user.js)」をタップする  
 ダウンロードした「LINGUAPORTA.crx」を選択する  
+※LINGUAPORTA.crx以外は使用していない
 ## PCの場合
 右上の「Code」をクリックする  
 「Download ZIP」をクリックする  
@@ -32,6 +33,7 @@ Chromeを開く
 左上の「パッケージ化されていない拡張機能を読み込む」をクリックする  
 展開したフォルダーを選択する  
 「フォルダーの選択」をクリックする  
+※LINGUAPORTA.crxは使用していない
 # 使い方
 ## 実行するとき
 [リンガポルタ レッドゲートのログイン画面](https://w5.linguaporta.jp/user/seibido/)を開く  
