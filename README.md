@@ -20,7 +20,7 @@ Kiwi Browserを開く
 右上の「デベロッパー モード」をオンにする  
 「+ (from .zip/.crx/.user.js)」をタップする  
 ダウンロードした「LINGUAPORTA.crx」を選択する  
-※LINGUAPORTA.crx以外は使用していない
+※LINGUAPORTA.crx以外はPCのみ使用していて、PCの場合、使用していない
 ## PCの場合
 右上の「Code」をクリックする  
 「Download ZIP」をクリックする  
@@ -33,7 +33,7 @@ Chromeを開く
 左上の「パッケージ化されていない拡張機能を読み込む」をクリックする  
 展開したフォルダーを選択する  
 「フォルダーの選択」をクリックする  
-※LINGUAPORTA.crxは使用していない
+※LINGUAPORTA.crxはAndroidのみ使用していて、PCの場合、使していない
 # 使い方
 ## 実行するとき
 [リンガポルタ レッドゲートのログイン画面](https://w5.linguaporta.jp/user/seibido/)を開く  
