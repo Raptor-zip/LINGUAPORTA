@@ -1,4 +1,5 @@
 # リンガポルタ完全自動化ツール【1クリックで完結】
+![Screenshot](https://raw.githubusercontent.com/Raptor-zip/LINGUAPORTA/main/image/readme.png)
 COCET 2600(理工系学生のための必須英単語 2600)のLINGUAPORTA(リンガポルタ)を自動化するボット(BOT)です。  
 書籍(COCET 2600)の選択、学習する単元の選択、問題の回答をすべて自動化します。  
 「単語の意味」と「空所補充」の問題を自動で解きます。Webブラウザの拡張機能を使用しています。
