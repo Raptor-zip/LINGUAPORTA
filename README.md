@@ -12,8 +12,8 @@ Google Chrome または Edge
 # 導入方法
 ## Androidの場合
 ```
-- [ ] 右上の「Go to file」をタップする  
-[ ] 「LINGUAPORTA.crx」をタップする  
+右上の「Go to file」をタップする  
+「LINGUAPORTA.crx」をタップする  
 右上の「・・・」をタップする
 「Download」をタップする  
 Kiwi Browserを開く  
