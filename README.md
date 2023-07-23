@@ -1,14 +1,13 @@
-# リンガポルタ完全自動化ツール【1クリックで完結】
+# リンガポルタ完全自動化ツール【1クリックでOK】
 ![Screenshot](https://raw.githubusercontent.com/Raptor-zip/LINGUAPORTA/main/image/readme.png)
 COCET 2600(理工系学生のための必須英単語 2600)のLINGUAPORTA(リンガポルタ)を自動化するボット(BOT)です。  
 書籍(COCET 2600)の選択、学習する単元の選択、`単語の意味`と`空所補充`の回答をすべて自動化します。  
 # 必須環境
-## スマホの場合
-android(動作確認済み)  
-[Kiwi Browser](https://play.google.com/store/apps/details?id=com.kiwibrowser.browser)
-※Google ChromeやSafariだと拡張機能を実行できないので、Kiwi Browserなどの拡張機能が実行できるアプリが必要
-## PCの場合(Windows,Macで動作確認済み)  
-Google Chrome または Edge
+`Android` [Kiwi Browser](https://play.google.com/store/apps/details?id=com.kiwibrowser.browser)  
+※Google ChromeやSafariだと拡張機能を実行できないので、Kiwi Browserなどの拡張機能が実行できるアプリが必要  
+`Windows` Google Chrome または Edge  
+`Mac` Google Chrome または Edge  
+動作確認済み
 # 導入方法
 ## Androidの場合
 ```
@@ -62,6 +61,6 @@ Webブラウザの拡張機能を使用している。
 ## 管理者にばれない仕組み
 学習時間が管理者に報告されるので、回答するまでに、設定した遅延を加えることができる。  
 ※チャレンジ回数と学習した問題数が管理者に報告されるので、正答率100%だとばれます。手作業で、故意に間違え、正答率を下げることを推奨。  
-
+<sub>
 他のLINGUAPORTAツールと同時に使用することはできません。  
-<sub>利用者と関連付けられた問題の情報と使用状況が製作者に送信されます。パスワードが製作者に送信されることはありません。</sub>
+利用者と関連付けられた問題の情報と使用状況が製作者に送信されます。パスワードが製作者に送信されることはありません。</sub>
