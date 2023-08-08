@@ -1,0 +1,164 @@
+html {
+    font-family: sans-serif !important;
+    user-select: none;
+}
+
+#content-login {
+    max-width: 40% !important;
+}
+
+@media screen and (max-width: 959px) {
+    /* 959px以下に適用されるCSS（タブレット用） */
+    #content-login {
+        max-width: 80% !important;
+    }
+    #footer {
+        display: none !important;
+    }
+    #header h1 {
+        display: none !important;
+    }
+    #header {
+        background: none !important;
+    }
+    #content-inner {
+        padding: 0px 15px 10px 15px !important;
+    }
+    #content-study {
+        padding-bottom: 0 !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* 480px以下に適用されるCSS（スマホ用） */
+    #content-login {
+        max-width: 95% !important;
+    }
+}
+
+#content-login th,
+#content-login td {
+    display: table-cell !important;
+}
+
+.display-block {
+    display: block;
+}
+
+.display-none {
+    display: none;
+}
+
+#content-login th,
+#content-login td {
+    text-align: center !important;
+    padding: 1px !important;
+}
+
+#question_area,
+#question_td {
+    text-align: left !important;
+}
+
+
+/* ボタンに余白をつけて、誤操作を防止する */
+
+#question_td input[type=button],
+#question_td input[type=submit] {
+    margin: 5px !important;
+}
+
+#question_area #drill_form input {
+    margin: 12px 0 !important;
+}
+
+
+/* 文字サイズを大きくして視認性を高める */
+
+#qu02,
+#question_area #drill_form label {
+    font-size: 1.2rem !important;
+}
+
+
+/* labelのあとで強制的に改行 */
+
+label:after {
+    content: "\A";
+    white-space: pre;
+}
+
+button {
+    font-size: 1rem;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+    margin: 1rem 0;
+    padding: 0.1rem 4rem;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    border: none;
+    color: #fff;
+    background-color: #3177e0;
+}
+
+button:hover {
+    background: #2c66be;
+}
+
+#github_link_div {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.bookmark {
+    text-decoration: none;
+    max-height: 8em;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    box-shadow: 0px 0px 5px -2px #777777;
+}
+
+.bookmark-title {
+    font-size: 0.85em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 1.75em;
+    white-space: nowrap;
+}
+
+.bookmark-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.bookmark-info {
+    flex: 4 1 180px;
+    padding: 5px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.bookmark-href {
+    font-size: 0.75em;
+    margin-top: 0.25em;
+}
+
+.icon {
+    display: inline-block;
+    max-width: 1.2em;
+    max-height: 1.2em;
+    text-decoration: none;
+    vertical-align: text-bottom;
+    margin-right: 0.5em;
+}
