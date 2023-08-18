@@ -1,7 +1,7 @@
 //chrome.storage.local.clear();
 console.log("status:拡張機能作動");
 console.log("version:" + chrome.runtime.getManifest().version);
-let page_transition = 1;
+let page_transition = 0;
 if (page_transition == 0) {
     console.log("ページ遷移オフ");
 }
@@ -57,8 +57,7 @@ chrome.storage.local.get(null, function (data) {
             document.getElementById("question_area").style.margin = "";
         }
         if (document.querySelector("#true_msg") != null) {
-            //正解表示画面なら
-            //邪魔なGIF画像
+            //GIF画像を非表示にする
             document.querySelector("#true_msg > img").style.display = "none";
         }
     } else {
@@ -679,7 +678,7 @@ chrome.storage.local.get(null, function (data) {
     } else if (question_type == "単語の意味" && document.querySelector("#under_area").innerText.indexOf("全問終了") != -1) {
         console.log("location:単語の意味,status:全問題終了画面");
         let answer_en = document.querySelector("#qu02").innerText;
-        let answer_jp = document.querySelector("#drill_form").innerText.slice(4, -2);
+        let answer_jp = document.querySelector("#drill_form").innerText.slice(4);
         question_number = document.querySelector("#question_td > form:nth-child(1) > b").innerHTML.slice(5) - 1 + Number(document.querySelector("#content-study > table > tbody > tr:nth-child(2) > td > div.bloc-resp.bloc-resp-lessonname").innerText.split(")")[0].slice(1).split("-")[0]);
         chrome.runtime.sendMessage({
             "id": data.id,
