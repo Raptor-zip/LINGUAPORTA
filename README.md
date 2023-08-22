@@ -63,7 +63,9 @@ Chromeの右上の・・・をクリックする
 導入方法と同じように操作する。
 # 仕組み
 Webブラウザの拡張機能を使用している。  
-サーバーに保存してある答えを取得して、回答している。サーバーに問題の答えが存在しない場合、問題を1回間違えると、正解を見ることができるので、それを取得し、サーバーに保存している。
+サーバーに保存してある答えを取得して、回答している。サーバーに問題の答えが存在しない場合、問題を1回間違えると、正解を見ることができるので、それを取得し、サーバーに保存している。  
+`拡張機能の管理`画面で以下のエラーが表示されるが、ページ遷移時のセキュリティ上の仕様なので、問題ない。
+> Refused to run the JavaScript URL because it violates the following Content Security Policy directive: "script-src 'self' 'wasm-unsafe-eval' 'inline-speculation-rules' http://localhost:* http://127.0.0.1:*". Either the 'unsafe-inline' keyword, a hash ('sha256-...'), or a nonce ('nonce-...') is required to enable inline execution. Note that hashes do not apply to event handlers, style attributes and javascript: navigations unless the 'unsafe-hashes' keyword is present.
 ## 管理者にばれない仕組み
 学習時間が管理者に報告されるので、回答するまでに、遅延を加えたり、正答率を下げたりすることができる。  
 <sub>利用者と関連付けられた問題の情報と使用状況が製作者に送信されます。パスワードが製作者に送信されることはありません。</sub>
