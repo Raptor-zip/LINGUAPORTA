@@ -1,7 +1,7 @@
 //chrome.storage.local.clear();
 console.log("status:拡張機能作動");
 console.log("version:" + chrome.runtime.getManifest().version);
-let page_transition = 0;
+let page_transition = 1;
 if (page_transition == 0) {
     console.log("ページ遷移オフ");
 }
