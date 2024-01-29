@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "リンガポルタ自動化・補助",
-  "version": "4",
+  "version": "4.1",
   "description": "COCET2600を自動化または、補助をするツール(ボット)です",
   "content_scripts": [
     {
