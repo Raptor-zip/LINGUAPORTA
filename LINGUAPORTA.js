@@ -655,7 +655,7 @@ chrome.storage.local.get(null, function (data) {
     } else if (question_type == "単語の意味" && document.querySelector("#drill_form > font") != null && document.querySelector("#under_area").innerText.indexOf("全問終了") == -1) {
         console.log("location:単語の意味,status:正解画面");
         let answer_en = document.querySelector("#qu02").innerText;
-        let answer_jp = document.querySelector("#drill_form").innerText.slice(4, -1);
+        let answer_jp = document.querySelector("#drill_form").innerText.slice(4);
         question_number = document.querySelector("#question_td > form:nth-child(1) > b").innerHTML.slice(5) - 1 + Number(document.querySelector("#content-study > table > tbody > tr:nth-child(2) > td > div.bloc-resp.bloc-resp-lessonname").innerText.split(")")[0].slice(1).split("-")[0]);
         key = "a" + String(question_number);
         chrome.runtime.sendMessage({
