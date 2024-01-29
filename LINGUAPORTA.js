@@ -630,7 +630,7 @@ chrome.storage.local.get(null, function (data) {
         question_number = document.querySelector("#question_td > form:nth-child(1) > b").innerHTML.slice(5) - 1 + Number(document.querySelector("#content-study > table > tbody > tr:nth-child(2) > td > div.bloc-resp.bloc-resp-lessonname").innerText.split(")")[0].slice(1).split("-")[0]);
         key = "a" + String(question_number);
         let answer_en = document.querySelector("#qu02").innerText;
-        let answer_jp = document.querySelector("#drill_form").innerText.slice(3, -1);
+        let answer_jp = document.querySelector("#drill_form").innerText.slice(3);
         if (key in data) {
             chrome.storage.local.set({
                 [key]: [answer_en, answer_jp, data[key][2], data[key][3], data[key][4]]
