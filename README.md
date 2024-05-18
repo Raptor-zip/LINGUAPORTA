@@ -1,6 +1,6 @@
 # リンガポルタ完全自動化ツール【簡単インストール】
 
-# サイトのデザインが変わったので、修復中です
+# 修復中 5/19に更新予定
 
 ![Screenshot](https://raw.githubusercontent.com/Raptor-zip/LINGUAPORTA/main/image/readme.png)
 COCET 2600(理工系学生のための必須英単語 2600)のLINGUAPORTA(リンガポルタ)を自動化するツール(ボット)です。  
