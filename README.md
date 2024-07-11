@@ -1,15 +1,11 @@
 # リンガポルタ完全自動化ツール【簡単インストール】
 
-# 修復中 定期テストまでに修復予定
-
 ![Screenshot](https://raw.githubusercontent.com/Raptor-zip/LINGUAPORTA/main/image/readme.png)
 COCET 2600(理工系学生のための必須英単語 2600)のLINGUAPORTA(リンガポルタ)を自動化するツール(ボット)です。  
 # ✨機能
 ## 自動化
 獲得するスコア、回答入力遅延、正答率、単元を選んで、スタートボタンをクリックすると、自動で問題を解きます。  
 # 必須環境
-`Android` **[Kiwi Browser](https://play.google.com/store/apps/details?id=com.kiwibrowser.browser)**  
-※Google ChromeやSafariだと拡張機能を実行できないので、Kiwi Browserなどの拡張機能が実行できるアプリが必要  
 `Windows` Google Chrome または Edge  
 `Mac` Google Chrome または Edge  
 # 🛠️導入方法🛠️
@@ -27,20 +23,6 @@ Chromeを開く
 展開したフォルダーを選択する  
 「フォルダーの選択」をクリックする
 ※ここで「エラーマニフェスト ファイルが見つからないか、読み取ることができません」と表示された場合、選択したフォルダーが間違っているので、よく確認してください
-```
-※LINGUAPORTA.crxはAndroidでのみ使用していて、PCでは使用していない
-## 📱Androidの場合
-```
-右上の「Go to file」をタップする  
-「LINGUAPORTA.crx」をタップする  
-右上の「・・・」をタップする
-「Download」をタップする  
-Kiwi Browserを開く  
-右上の・・・をタップする  
-「拡張機能」をタップする  
-右上の「デベロッパー モード」をオンにする  
-「+ (from .zip/.crx/.user.js)」をタップする  
-ダウンロードした「LINGUAPORTA.crx」を選択する  
 ```
 # 🏄使い方
 ## 実行するとき
