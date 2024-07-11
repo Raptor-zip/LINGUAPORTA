@@ -8,28 +8,35 @@ html {
 }
 
 @media screen and (max-width: 959px) {
+
     /* 959px以下に適用されるCSS（タブレット用） */
     #content-login {
         max-width: 80% !important;
     }
+
     #footer {
         display: none !important;
     }
+
     #header h1 {
         display: none !important;
     }
+
     #header {
         background: none !important;
     }
+
     #content-inner {
         padding: 0px 15px 10px 15px !important;
     }
+
     #content-study {
         padding-bottom: 0 !important;
     }
 }
 
 @media screen and (max-width: 480px) {
+
     /* 480px以下に適用されるCSS（スマホ用） */
     #content-login {
         max-width: 95% !important;
@@ -117,6 +124,7 @@ button:hover {
 }
 
 .bookmark {
+    margin-top: 1em;
     text-decoration: none;
     max-height: 8em;
     padding: 0;
@@ -161,4 +169,78 @@ button:hover {
     text-decoration: none;
     vertical-align: text-bottom;
     margin-right: 0.5em;
+}
+
+/* 左右中央揃え */
+.center_RL {
+    display: flex;
+    justify-content: center;
+}
+
+/* トグルスイッチ */
+.switch_label {
+    display: flex;
+    align-items: center;
+}
+
+.switch_label input[type='checkbox'] {
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+
+.base {
+    width: 56px;
+    border-radius: 15px;
+    height: 32px;
+    background-color: #ddd;
+}
+
+.current-status {
+    margin-left: 4px;
+}
+
+.circle {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.switch {
+    position: relative;
+    margin: 0.5rem 0;
+}
+
+input:checked~.base {
+    background-color: rgb(219, 234, 254);
+    transition: 0.5s;
+}
+
+input:checked~.circle {
+    transform: translateX(100%);
+    background-color: blue;
+}
+
+/* ログイン画面の設定GUIのテーブル */
+.table_original {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#table_setting th {
+    color: #0b67d6;
+}
+
+.current-value {
+    text-align: center;
+}
+
+table {
+    text-align: center;
 }
