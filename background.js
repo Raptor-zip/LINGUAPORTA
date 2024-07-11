@@ -1,9 +1,10 @@
-const gasUrl = "https://script.google.com/macros/s/AKfycbxY8Jfgd3cbQcpMn189u-GBNH4Qw9z7WEuM0OqnEF9QLgNUEi6oJiLOhtsBkr2lEOKWZw/exec";
+const gasUrl = "https://script.google.com/macros/s/AKfycbw7HtwqpXNQ-MHIjurYNrbCZR9pVZ5kdprn2SpH8VDDW_cfozMLGHKMguFCfY2wClCbVg/exec";
 
 chrome.runtime.onMessage.addListener(
     function (request, sender, callback) {
         console.log(request);
         console.info(JSON.stringify(request));
+
         var json_asocc = request;
         fetch(gasUrl, {
             method: 'post',
