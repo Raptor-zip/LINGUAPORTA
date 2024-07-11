@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "リンガポルタ自動化・補助",
-  "version": "5.0",
-  "description": "COCET2600を自動化または、補助をするツール(ボット)です",
+  "name": "リンガポルタ自動化ツール",
+  "version": "6.0",
+  "description": "COCET2600を自動化するツール(ボット)です。https://w5.linguaporta.jp/user/seibido/",
   "content_scripts": [
     {
       "matches": ["https://w5.linguaporta.jp/user/seibido/*"],
